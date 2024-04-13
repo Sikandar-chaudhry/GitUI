@@ -41,7 +41,7 @@ export default function Footer(){
                                     <a href={"/"} className="hover:underline">Git UI</a>
                                 </li>
                                 <li className="">
-                                    <a href={"/contact"} className="hover:underline">Contact</a>
+                                    <a href="/contact" className="hover:underline">Contact</a>
                                 </li>
                             </ul>
                         </div>
