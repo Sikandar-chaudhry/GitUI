@@ -53,9 +53,9 @@ export default function GithubStats(){
                         </div>
                     </div>
                     <hr></hr>
-                    <div className='flex flex-col max-w-full py-4  px-2 mx-4 lg:mx-6 md:px-20'>
+                    <div className='flex flex-col max-w-full py-4 items-center px-2 mx-4 lg:mx-6 md:px-20'>
                         <h1 className='text-2xl text-purple-700 font-semibold mt-4'> Repositories </h1>
-                        <div className='flex flex-wrap gap-x-2 gap-y-2' >
+                        <div className='flex flex-wrap gap-x-4 gap-y-2 justify-center' >
                             {reposURLs.map(repo => (
                                 <div className='relative flex flex-col shadow-md mt-6 w-96 bg-clip-border rounded-xl border-2' key={repo.id}>
                                     <div className='p-6'>
