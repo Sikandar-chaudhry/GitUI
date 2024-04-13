@@ -85,7 +85,7 @@ export default function GithubStats(){
     else {
         return(
             <>
-                <div className='h-screen flex justify-center'>
+                <div className='flex justify-center'>
                     <div className='flex items-center flex-col pt-80'>
                         <h1 className='text-4xl text-purple-700 font-semibold'>
                             Github Statistics
