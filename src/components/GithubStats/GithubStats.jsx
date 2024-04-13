@@ -42,12 +42,13 @@ export default function GithubStats(){
         return(
             <>
                 <div className=''>
-                    {console.log(data)}
+
                     <div className='flex flex-row max-w-full py-4 lg:px-72 mx-4 px-2  lg:mx-6 md:px-20 justify-between items-center'>
                         <h1 className='text-2xl border-2 rounded-md p-2 font-medium'>{data.name}</h1>
                         <div className=' border-2 rounded-md p-1'>
                             <img src={data.avatar_url}
                                  className='rounded-full w-20'
+                                 alt="Github Profile Picture"
                             />
                         </div>
                     </div>
