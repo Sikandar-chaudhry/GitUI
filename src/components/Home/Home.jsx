@@ -18,7 +18,7 @@ export default function Home(){
     return(
         <>
             <div className='flex justify-center'>
-                <div className='flex items-center flex-col p-72'>
+                <div className='flex items-center flex-col py-72 px-4'>
                     <h1 className='text-4xl text-purple-700 font-semibold'>
                         Github Statistics
                     </h1>
